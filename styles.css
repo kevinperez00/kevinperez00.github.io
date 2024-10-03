@@ -6,3 +6,15 @@
     text-align: center;
     color: darkred;
  }
+
+ .projects { 
+   display:flex; 
+   flex-wrap:wrap; 
+} 
+.project {
+   width: 30%;
+   margin: 10px;
+   padding: 20px 10px;
+   background: rgb(143, 94, 65); /* pick a color */
+   border-radius: 25%;
+}
